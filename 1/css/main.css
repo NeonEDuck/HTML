@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	background: #bbb;
+	font-family: 'Roboto Mono', 'Noto Sans TC', monospace;
+	margin: 0;
+	padding: 0;
+}
+
+div.container{
+	background: #ddd;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.header{
+	height: 150px;
+	background: #e78553
+}
+
+div.content{
+	text-align: justify;
+	padding: 30px;
+}
