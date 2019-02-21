@@ -2,14 +2,15 @@
 /* CSS Document */
 
 html, body{
-	background: #bbb;
+	background: #5a5a5a;
 	font-family: 'Roboto Mono', 'Noto Sans TC', monospace;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
 }
 
 div.container{
-	background: #ddd;
+	background: #fafafa;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
@@ -17,10 +18,29 @@ div.container{
 
 div.header{
 	height: 150px;
-	background: #e78553
+	background-image:url(../imgs/banner.jpg);
 }
 
 div.content{
 	text-align: justify;
-	padding: 30px;
+	padding: 10px 30px;
+}
+
+span.first{
+	font-size: 36px;
+	font-weight: 400;
+}
+
+img.kermit{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	border: 10px solid #fff;
+	box-shadow: 0px 0px 3px 3px #333;
+}
+
+div.footer{
+	height: 100px;
+	text-align: center;
+	background: #ddd;
 }
