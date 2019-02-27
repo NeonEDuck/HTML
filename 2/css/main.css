@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: #aaa;
+}
+
+div.content {
+	width: 800px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px 0px #000;
+	margin: 0 auto;
+	padding: 40px 30px;
+	background: #fff;
+}
+
+div.author img {
+	border-radius: 40px;
+	box-shadow: 0px 5px 5px 0px #000;
+	float: left;
+}
+
+span.title {
+	position: relative;
+	top: 20px;
+	left: 25px;
+	font-size: 28px;
+	font-weight:600;
+	letter-spacing: 3px;
+}
+
+span.author {
+	position: relative;
+	top: 15px;
+	left: 25px;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-weight: 400;
+}
+p {
+	line-height: 28px;
+}
+
+img, iframe {
+	box-shadow: 0px 5px 5px 0px #000;
+}
+
+div.author:after {
+	display: block;
+	content: '';
+	clear: both;
+}
