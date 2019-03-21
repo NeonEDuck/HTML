@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0;
+	background: #aa5639;
+}
+
+div.container{
+	box-sizing: border-box;
+	margin: 0 auto;
+	background: rgba(212, 133, 106, 0.5);
+	width: 800px;
+}
+
+div.content{
+	padding: 20px 30px;
+}
+
+div.blockquote{
+	margin-left: 20px;
+	border-left: 10px solid #f88;
+	padding: 5px 0px 5px 20px;
+	font-style: italic;
+	font-size: 15px;
+}
+
+div.thumbnails{
+}
+
+div.thumbnails:before,
+div.thumbnails:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+div.thumbnail a{
+	text-decoration: none;
+}
+
+div.thumbnail img{
+	filter: brightness(1);
+	height: 150px;
+}
+
+div.thumbnail:hover img{
+	/*filter: opacity(1.2);*/
+	/*filter: brightness(1.2);*/
+	/*filter: grayscale(1);*/
+	/*filter: blur(1);*/
+	/*filter: sepia(1);*/
+	filter: brightness(1.2);
+}
+
+div.thumbnail{
+	width: 230px;
+	height: 350px;
+	background: url(../imgs/banner_bg.jpg);
+	background-size: cover;
+	float:left;
+	overflow:hidden;
+	box-shadow: 0px 0px 5px 0px #444;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+div.thumbnail:nth-child(1),
+div.thumbnail:nth-child(2){
+	margin-right: 25px;
+}
+
+div.thumbnail h2,
+div.thumbnail p{
+	padding: 0 10px;
+	color: #111;
+}
+
+div.thumbnail h2{
+	font-size: 20px;
+}
+
+div.thumbnail p{
+	font-size: 16px;
+}

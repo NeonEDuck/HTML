@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+div.container{
+	width: 1000px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+div.header{
+	height:80px;
+	background: #015053;
+}
+
+div.navbar{
+	height:40px;
+	background: #09676b;
+}
+
+div.content{
+	display: flex;
+	background: #138287;
+}
+
+div.left{
+	background: #2e8b8f;
+	padding: 15px;
+	padding-top: 25px;
+	text-align: justify;
+	font-size: 14px;
+	font-weight: 600;
+	flex: 1;
+}
+
+div.right{
+	background: #4fa3a6;
+	padding: 15px;
+	text-align: justify;
+	flex: 4;
+}
+
+table.menu{
+	border-collapse: collapse;
+}
+
+table.menu tr{
+	height: 40px;
+}
+
+table.menu tr td{
+	padding-top: 30px;
+	border-bottom: 1px dotted #eee;
+}
+
+table.menu tr td p{
+	margin: 0;
+}
+
+table.menu tr td p:nth-child(1){
+	font-size:20px;
+}
+
+div.footer{
+	height:50px;
+	background: #015053;
+}
