@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+div.container{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 980px;
+}
+
+div.section:nth-child(1){
+	margin-top: 60px;
+}
+
+div.section:not(:nth-child(1)){
+	margin-top: 40px;
+}
+
+div.thumbnails{
+}
+
+div.thumbnails:before,
+div.thumbnails:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+div.thumbnail a{
+	text-decoration: none;
+}
+
+div.thumbnail img{
+	margin-top: 10px;
+	width: 157px;
+	height: 143.391px;
+}
+
+div.thumbnail{
+	width: 184.8px;
+	height: 291px;
+	height: 290px;
+	background: #fff;
+	background-size: cover;
+	float:left;
+	overflow:hidden;
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.thumbnail:not(:nth-child(5)){
+	margin-right: 14px;
+}
+
+div.thumbnail h2{
+	font: inherit;
+	width: 157px;
+	height: 40px;
+	border: 1px solid #dadada;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 5px;
+	line-height: 40px;
+	color:#ce181e;
+}
+
+div.thumbnail h2:hover{
+	border-color: #E2383C;
+	color:#E2383C;
+}
+
+div.thumbnail p{
+	font-size: 16px;
+	font-weight: 800;
+	text-align: left;
+	padding: 0 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 157px;
+	color: #777;
+}
+div.view{
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.view a{
+	text-decoration:none;
+}
+
+div.view span{
+	font-size: 24px;
+	font-weight: 100;
+	color: #ce181e;
+}
+
+div.view span:hover{
+	color: #E2383C;
+	border-bottom: 1px solid #E2383C;
+}
+
+div.suggestion p{
+	font-size: 14px;
+	margin: 0;
+    margin-bottom: 5px;
+	color: #777;
+}
